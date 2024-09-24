@@ -1,0 +1,303 @@
+@media (min-width: 501px) and (max-width: 1920px) {
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+  }
+  h2{
+    margin: 0 0 10% 0;
+  }
+  .for-mobil {
+    display: none;
+  }
+  header {
+    background-color: #162a61;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  header .logo {
+    width: 50px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+
+  header nav ul li {
+    display: inline;
+  }
+
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .main-content {
+    height: 25rem;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  .title-top{
+    padding-top: 1rem;
+  }
+  .name-book {
+    text-decoration: none;
+    text-decoration-line: none;
+  }
+  .side-content {
+    
+    display: flex;
+    /* gap: 20px; */
+    height: 25rem;
+    text-align: center;
+    align-content: flex-end;
+    /* justify-content: center; */
+    /* flex-wrap: nowrap; */
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .side-box {
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .name-book {
+    text-align: center;
+    margin: 0;
+  }
+
+  .gallery {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    max-width: 1200px;
+    overflow-x: auto; /* Habilita el scroll horizontal */
+    padding-bottom: 10px; /* Asegura que el scroll no se superponga con el contenido */
+  }
+
+  .gallery-item {
+    flex: 0 0 150px;
+    background-color: #e0e0e0;
+    height: 100px;
+    min-width: 150px;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .footer {
+    position: sticky-button;
+    width: 100%;
+    padding-top: 10%;
+    background-color: #8c8c8c;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 2px solid #a1a1a1;
+  }
+
+  .footer-nav {
+    margin-bottom: 10px;
+  }
+
+  .footer-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-menu-item {
+    display: inline;
+  }
+
+  .footer-link {
+    text-decoration: none;
+    color: #2c2c2c;
+    font-size: 14px;
+  }
+
+  .footer-icons {
+    margin-top: 10px;
+  }
+
+  .icon {
+    font-size: 24px;
+    color: #2c2c2c;
+    margin: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* Estilos para teléfonos */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    display: flex;
+    flex-direction: column;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .for-pc {
+    display: none;
+  }
+  header {
+    width: 100%;
+    overflow-x: auto;
+    background-color: #374f92;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0 2%;
+    max-width: 100%; /* ajusta el valor según tus necesidades */
+  }
+
+  .logo {
+    width: 50px;
+    height: 30px;
+    margin-left: 3%;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  .nav {
+    margin-right: 3%;
+    justify-content: space-around;
+  }
+
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+
+  header nav ul li {
+    display: inline;
+  }
+
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .main-content {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d4ebeb;
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .card-content h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+
+  .card-content p {
+    margin: 5px 0 0;
+    color: #555;
+  }
+
+  .gallery {
+    display: flex;
+    gap: 10px;
+    /* width: 100%; */
+    max-width: 100%;
+    padding: 2%;
+    overflow-x: auto; /* Habilita el scroll horizontal */
+    padding-bottom: 10px; /* Asegura que el scroll no se superponga con el contenido */
+  }
+  .name-book {
+    display: flex;
+    justify-content: center;
+  }
+  .gallery-item {
+    flex: 0 0 150px;
+    background-color: #e0e0e0;
+    height: 100px;
+    min-width: 150px;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+  .footer {
+    background-color: #4a4a4a;
+    padding: 10px;
+  }
+
+  .footer-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-list li {
+    background-color: #5c5c5c;
+    padding: 15px;
+    margin: 5px 0;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #3a3a3a;
+    border-radius: 4px;
+  }
+}
