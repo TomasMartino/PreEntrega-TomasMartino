@@ -183,10 +183,11 @@
   a {
     text-decoration: none;
     color: inherit;
-    margin: 0;
+    
+  }
+  .name-book {margin: 0;
     font-size: 1.5em;
   }
-
   .for-pc {
     display: none;
   }
