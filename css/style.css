@@ -261,6 +261,7 @@
   }
   .img-cart{
     border-radius: 15%;
+    width: 50%;
   }
   .gallery {
     display: flex;
